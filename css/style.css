@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: League Spartan; 
+    background-color: rgb(230, 201, 179);
+}
+
+
+main {
+    padding-top: 100px;
+    font-size: 1.5em;
+    line-height: 1.4em
+}
+
+.eka {
+    margin-bottom:400px;
+
+}
+
+section {
+    max-width: 900px;
+    margin: 20px auto;
+    justify-content: center;
+    text-align:center
+}
+
+header {
+    background-color:rgb(185, 234, 251);
+    padding:15px;
+    height:30px;
+    position:fixed;
+    width:100%;
+    top: 0;
+}
+header nav {
+    float: left
+
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 0.5em
+}
+header nav a:hover {
+    color:white
+}
+
+h1 {
+    font-size:2.9em;
+    text-align:center
+
+}
+
+h2 {
+    font-size:2.5em;
+    text-align:center;
+    
+}
+.minakuva{
+    max-width:525px;
+    max-height:700px;
+    width:525px;
+    height:700px;
+    width:100%;
+    height:100%
+}
+.container {
+    margin: 20px auto;
+    justify-content: center;
+    display:grid;
+    grid-template-columns: 525px 1400px;
+
+}
+
+
+.container > div {
+    background-color: rgb(206, 228, 250);
+    border: 5px solid white;
+    font-size: 1.6em;
+    line-height: 1.0;
+
+
+}
+.osaamiset{
+    font-size:1.4em;
+    margin: 0px auto;
+    display:grid;
+    grid-template-columns: auto auto;
+    column-gap:30%
+
+}
+
+.osaamiset > div {
+  background-color: rgb(206, 228, 250);
+  border: 5px solid white;
+  font-size:1.4em;
+  line-height: 1.0;
+  text-align: center;
+  width:500px;
+}
+
+.dropbtn {
+    display:none;
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+@media only screen and (max-width: 800px){
+header {
+    padding:auto;
+    height:50px;
+    position:fixed;
+    width:100%;
+    top: 0;
+}
+header nav a {
+    display: none;
+
+}
+html, body {
+    overflow-x: hidden;
+}
+section {
+    max-width: 900px;
+    width: 100%;
+    
+}
+
+.dropbtn {
+    display: block;
+    background-color:transparent;
+    border:none;
+
+}
+
+h1{
+    line-height: 1.0;
+}
+
+
+.container {
+    grid-template-columns: auto;
+    margin:0px;
+}
+
+.container > div {
+    background-color: rgb(206, 228, 250);
+    border: 5px solid white;
+    font-size: 1.6em;
+    line-height: 1.0;
+    height:auto;
+
+}
+
+.osaamiset{
+    width:100%;
+    margin: 0;
+    padding: 0;
+    grid-template-columns: auto;
+
+}
+
+.osaamiset > div {
+    width:auto;
+}
+
+
+
+
+.tiedot {
+    grid-row: 2 
+}
+
+}
